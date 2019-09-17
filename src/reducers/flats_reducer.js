@@ -2,7 +2,7 @@ export default function(state, action) {
   // Compute + return new state
   // handle state
   if (state === undefined) {
-    return []
+    return [];
   }
 
   // handle action
