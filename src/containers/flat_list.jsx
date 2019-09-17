@@ -1,5 +1,7 @@
 import React, {Component} from "react";
-import Flat from '../components/flat.jsx'
+import Flat from '../components/flat.jsx';
+
+
 class FlatList extends Component {
   static defaultProps = { flats: [{
       "name": "Charm at the Steps of Montmartre",
