@@ -19,6 +19,10 @@ body {
   flex: 50% 0 0;
 }
 
+.selected {
+  border: 10px solid red;
+}
+
 .card {
   height: 230px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
@@ -27,8 +31,8 @@ body {
   color: white;
   position: relative;
   transition: all .4s ease;
-  :hover {
-    cursor: pointer;
+  &.active {
+    border: 10px solid red;
   }
 }
 .card-user {
