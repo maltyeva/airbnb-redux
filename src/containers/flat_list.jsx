@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import { bindActionCreators } from "redux";
 import { connect } from 'react-redux';
-import Flat from '../components/flat.jsx';
+import Flat from '../containers/flat.jsx';
 import { setFlats } from '../actions';
 
 function mapDispatchToProps(dispatch) {
